@@ -1,4 +1,4 @@
-.header{
+.header, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -20,4 +20,19 @@ button {
     border-radius: 8px;
     padding: 5px 24px;
     border: none;
+}
+.services {
+    background-color: #E5E7EB;
+}
+.services .p {
+    color: red;
+}
+.contact {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-border{
+    border: 1px white solid;
 }
