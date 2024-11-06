@@ -1,17 +1,12 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin: 0px 25px;
 }
 
 /* Header Styles */
 .header, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    /* flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start; */ 
 }
 
 .top {
@@ -65,22 +60,52 @@ button {
 
 /* Third Section Styles */
 .services {
-    background-color: #E5E7EB;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px;
 }
 
 .service {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 20;
+}
+
+.service p {
+    padding-top: 10px;
 }
 
 .center {
     display: flex;
+    align-items: space-between;
+    gap: 30px;
+}
+
+.service-title{
+    padding-bottom: 30px;
+}
+
+
+/* Fourth Section Styles */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.italic {
+    font-size: 36px;
+    font-style: italic;
+}
+.person {
+    display: flex;
+    align-self: flex-end;
+    
 }
 
 /* Fifth Section Styles */
@@ -88,9 +113,25 @@ button {
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    padding: 25px;
 }
 
 .button-border{
     border: 1px white solid;
+}
+
+.right-contact{
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
 }
 
